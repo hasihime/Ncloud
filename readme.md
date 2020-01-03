@@ -90,3 +90,19 @@ echo 'ncp!@#123' | passwd --stdin root
 - 먼저 Launch Configuration 생성을 한다.
 
 - 다음 AutoScaling Group 생성
+
+10. Object Storage
+
+- 웹의 저장소는 비싸기 때문에 object Stroage 사용.
+
+- 블록 단위로 저장하지 않고 Object 단위로 저장한다.
+
+- 장점은 os를 통하지 않고 접근할 수 있다.
+
+- 단점은 이름 바꾸기를 할 경우 데이터 전체를 바꿔야 한다.
+
+11. Archive storage
+
+- 로그 기록같이 자주 안 보는 자료를 저장하는 공간
+
+- object storage보다 느리지만 저렴함.
