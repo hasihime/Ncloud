@@ -81,15 +81,79 @@ echo 'ncp!@#123' | passwd --stdin root
 
 07. 로드 밸런싱
 
+<img src="img/07.PNG">
+
+<img src="img/07-1.PNG">
+
+<img src="img/07-2.PNG">
+
+<img src="img/07-3.PNG">
+
+<img src="img/07-4.PNG">
+
+<img src="img/07-5.PNG">
+
 08. DNS
+
+<img src="img/08.PNG">
+
+<img src="img/08-1.PNG">
+
+<img src="img/08-2.PNG">
+
+<img src="img/08-3.PNG">
+
+<img src="img/08-4.PNG">
+
+<img src="img/08-5.PNG">
+
 
 09. 오토 스케일링
 
 - 서버에 갑작스럽게 부하가 걸릴 경우 서버를 자동적으로 생성하여 부하를 줄여주는 기능
 
+<img src="img/09.PNG">
+
 - 먼저 Launch Configuration 생성을 한다.
 
+<img src="img/09.PNG">
+
+<img src="img/09-1-1.PNG">
+
+<img src="img/09-1-2.PNG">
+
+<img src="img/09-1-3.PNG">
+
+<img src="img/09-1-4.PNG">
+
+<img src="img/09-1-5.PNG">
+
+<img src="img/09-1-6.PNG">
+
 - 다음 AutoScaling Group 생성
+
+<img src="img/09-4.PNG">
+
+<img src="img/09-3.PNG">
+
+<img src="img/09-4-1.PNG">
+
+<img src="img/09-4-2.PNG">
+
+<img src="img/09-4-3.PNG">
+
+<img src="img/09-4-4.PNG">
+
+<img src="img/09-5.PNG">
+
+- Group Event Setting에서 만든 autoscaling group의 정책을 설정한다. (cpu 사용량에 따라 서버 추가 감소 등)
+
+<img src="img/09-6.PNG">
+
+<img src="img/09-6-1.PNG">
+
+<img src="img/09-6-2.PNG">
+
 
 10. Object Storage
 
@@ -106,3 +170,27 @@ echo 'ncp!@#123' | passwd --stdin root
 - 로그 기록같이 자주 안 보는 자료를 저장하는 공간
 
 - object storage보다 느리지만 저렴함.
+
+S3 Browser를 통해 관리함
+
+주소(https://s3browser.com/)
+
+<img src="img/10.PNG">
+
+
+<img src="img/10-1.PNG">
+
+<img src="img/10-2.PNG">
+
+<img src="img/10-3.PNG">
+
+<img src="img/10-4.PNG">
+
+<img src="img/10-4-1.PNG">
+
+<img src="img/10-5.PNG">
+
+<img src="img/10-6.PNG">
+
+<img src="img/10-7.PNG">
+
