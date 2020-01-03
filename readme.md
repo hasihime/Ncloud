@@ -77,3 +77,16 @@ echo 'ncp!@#123' | passwd --stdin root
 <img src="img/06-2.PNG">
 
 <img src="img/06-3.PNG">
+
+
+07. 로드 밸런싱
+
+08. DNS
+
+09. 오토 스케일링
+
+- 서버에 갑작스럽게 부하가 걸릴 경우 서버를 자동적으로 생성하여 부하를 줄여주는 
+
+- 먼저 Launch Configuration 생성을 한다.
+
+- 다음 AutoScaling Group 생성
