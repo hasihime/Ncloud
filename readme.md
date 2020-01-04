@@ -195,3 +195,5 @@ S3 Browser를 통해 관리함
 <img src="img/10-7.PNG">
 
 12. SSL VPN
+
+- 안전하게 클라우드를 연결하는데 
